@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jgoodnight318.github.io/ai-agent-jobs/sitemap.xml
