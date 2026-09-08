@@ -101,3 +101,27 @@ tag=machine-learning: 20 jobs
 Relevance filter: 23/93 kept
 Saved 23 unique jobs -> /Users/larry/Projects/ai_agent_jobs/data/raw_jobs.json
 Built 23 job cards across 3 categories.
+[main b97d53d] Daily job refresh
+ Committer: Larry <larry@Larrys-Mac-mini-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 85 insertions(+), 29 deletions(-)
++ /opt/homebrew/opt/python@3.14/bin/python3.14 tools/fetch.py
++ /opt/homebrew/opt/python@3.14/bin/python3.14 tools/build.py
++ git add -A
++ git commit -m Daily job refresh -m Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>
++ git push origin main
+tag=ai: 75 jobs
+tag=machine-learning: 15 jobs
+Relevance filter: 19/87 kept
+Saved 19 unique jobs -> /Users/larry/Projects/ai_agent_jobs/data/raw_jobs.json
+Built 19 job cards across 3 categories.
